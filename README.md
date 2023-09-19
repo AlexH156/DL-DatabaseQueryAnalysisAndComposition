@@ -4,6 +4,6 @@ GitHub repository for the code of my Master Thesis 'Deep Learning for Database Q
 ## Files
 The dataset is [SDSS](https://www.sdss.org/). Preprocessing.ipynb encompasses all steps taken to preprocess the data, such as data cleaning as well as reducing the load of 150 million obtained queries to around 240 thousand. hyperparameter-tuning.ipynb explored the best hyperparameters for the models with GreadSearch. baseline.ipynb evaluated two baseline models Median and TFIDF for the task of predicting runtime and cardinality. fit.ipynb is used to train and evaluate all CNNs.
 
-All trained models are contained in the models folder, splitted by runtime, cardinality and full prediction. All models were trained three times in total. Once for only runtime, once for only cardinality and once for a combined prediction of both.
+All trained models are contained in the models folder, splitted by runtime, cardinality and full prediction. All models were trained three times in total. Once for only runtime, once for only cardinality and once for a combined prediction of both. The VDCNN models are missing as they take up around 200MB each and can not be uploaded to GitHub.
 
-The used dataset is contained in the data folder, splitted by training and test data. 
+The used dataset would contained in a 'data' folder, splitted by training and test data, but could not be uploaded due to size reasons.
